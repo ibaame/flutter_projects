@@ -1,0 +1,45 @@
+name: traveling_app
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.6 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # package for direction of app
+  flutter_localizations:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  # to add fonts
+  fonts:
+    # first font
+    - family: ElMessiri # name of fonts
+      fonts:
+        - asset: assets/fonts/ElMessiri-Regular.ttf # path of font
+        - asset: assets/fonts/ElMessiri-semiBold.ttf
+          weight: 600 # properties of font (weight)
+        - asset: assets/fonts/ElMessiri-Bold.ttf
+          weight: 700
+
+    # second font
+    - family: Amiri
+      fonts:
+        - asset: assets/fonts/Amiri-Regular.ttf
+        - asset: assets/fonts/Amiri-Bold.ttf
+          weight: 700
